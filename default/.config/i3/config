@@ -51,13 +51,13 @@ exec --no-startup-id picom -b
 bindsym $sup+Return exec alacritty
 
 # start cachy browser
-bindsym $sup+d exec cachy-browser
+bindsym $mod+d exec firefox 
 
 # start feh and change wallpaper everytime i3 refreshes
 exec_always feh --bg-tile --randomize ~/Pictures/*
  
 # kill focused window
-bindsym $mod+q kill
+bindsym $sup+q kill
 
 # start rofi (a program launcher)
 bindsym $sup+space exec --no-startup-id rofi -show drun -show-icons

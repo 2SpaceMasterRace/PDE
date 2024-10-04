@@ -30,7 +30,7 @@ alias ....='cd ../../..'
 # Tools alias
 alias n='nvim'
 alias g='git'
-alias bat='batcat'
+alias b='bat'
 alias lzg='lazygit'
 alias lzd='lazydocker'
 
